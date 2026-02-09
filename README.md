@@ -196,7 +196,7 @@ Keep your SSH connection alive even during idle periods.
 2. **Add keep-alive settings** to your host entry:
    ```
    Host bootcamp-web
-       HostName YOUR_PUBLIC_IP
+       HostName 3.236.59.249
        User ec2-user
        IdentityFile ~/.ssh/bootcamp-week2-key.pem
        ServerAliveInterval 60

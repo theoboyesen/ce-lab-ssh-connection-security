@@ -1,0 +1,8 @@
+[ec2-user@ip-172-31-78-150 ~]$ grep "^PasswordAuthentication" /etc/ssh/sshd_config
+grep: /etc/ssh/sshd_config: Permission denied
+[ec2-user@ip-172-31-78-150 ~]$ grep "^PermitRootLogin" /etc/ssh/sshd_config
+grep: /etc/ssh/sshd_config: Permission denied
+[ec2-user@ip-172-31-78-150 ~]$ grep "^PubkeyAuthentication" /etc/ssh/sshd_config
+grep: /etc/ssh/sshd_config: Permission denied
+[ec2-user@ip-172-31-78-150 ~]$ sudo grep "^PubkeyAuthentication" /etc/ssh/sshd_config
+[ec2-user@ip-172-31-78-150 ~]$

@@ -1,0 +1,18 @@
+$ scp test-file.txt bootcamp-web:~/
+** WARNING: connection is not using a post-quantum key exchange algorithm.
+** This session may be vulnerable to "store now, decrypt later" attacks.
+** The server may need to be upgraded. See https://openssh.com/pq.html
+test-file.txt     
+
+$ scp bootcamp-web:~/instance-info.txt ./downloaded-info.txt
+** WARNING: connection is not using a post-quantum key exchange algorithm.
+** This session may be vulnerable to "store now, decrypt later" attacks.
+** The server may need to be upgraded. See https://openssh.com/pq.html
+instance-info.txt                                                                                          100% 1980     6.5KB/s   00:00
+
+scp -r my-website bootcamp-web:~/
+** WARNING: connection is not using a post-quantum key exchange algorithm.
+** This session may be vulnerable to "store now, decrypt later" attacks.
+** The server may need to be upgraded. See https://openssh.com/pq.html
+index.html                                                                                                 100%   17     0.1KB/s   00:00
+style.css  

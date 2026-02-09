@@ -1,0 +1,16 @@
+Host bootcamp-web
+       HostName 3.236.59.249
+       User ec2-user
+       IdentityFile ~/.ssh/bootcamp-week2-keyv2.pem
+       ServerAliveInterval 60
+       ServerAliveCountMax 3
+
+Host bootcamp-web
+       HostName 3.236.59.249
+       User ec2-user
+       IdentityFile ~/.ssh/bootcamp-week2-key.pem
+       ServerAliveInterval 60
+       ServerAliveCountMax 3
+       TCPKeepAlive yes
+       Compression yes
+
